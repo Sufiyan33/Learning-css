@@ -1,0 +1,11 @@
+.classSelector{
+    color: red;
+    text-align: center;
+}
+
+p.large{
+    color: aqua;
+    text-align: center;
+    font-size: 400%;
+    font-family: 'Times New Roman', Times, serif;
+}
