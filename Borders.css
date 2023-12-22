@@ -13,6 +13,10 @@ p.dashed{
     border-style: dashed;
     border-color: aqua;
     border-width: thick medium;
+
+    border-top-style: dotted;
+    border-bottom-style: dashed;
+    border-left-style: outset;
 }
 p.solid{
     border-style: solid;
