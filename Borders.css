@@ -60,3 +60,8 @@ p.mix{
     border-color: brown;
     border-width: medium;
 }
+
+p{
+    border-left: 10px solid red;
+    background-color: bisque;
+}
