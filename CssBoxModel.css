@@ -1,0 +1,12 @@
+h1{
+    background-color: aqua;
+    width: 30%;
+    text-align: center;
+}
+div {
+    background-color: lightgray;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
