@@ -1,0 +1,88 @@
+h2{
+    background-color: bisque;
+    width: 30%;
+    text-align: center;
+}
+
+p.dotted{
+    outline-style: dotted;
+    outline-color: blue;
+    outline-width: 5px, 3px;
+}
+p.dashed{
+    outline-style: dashed;
+    outline-color: aqua;
+    outline-width: thick medium;
+
+    border-top-style: dotted;
+    border-bottom-style: dashed;
+    border-left-style: outset;
+}
+p.solid{
+    outline-style: solid;
+    outline-color: green;
+    outline-width: medium;
+}
+p.double{
+    outline-style: double;
+    outline-color: yellow;
+    outline-width: thin thick;
+}
+p.groove{
+    outline-style: groove;
+    outline-color: lightblue;
+    outline-width: 2px 4px;
+}
+p.ridge{
+    outline-style: ridge;
+    outline-color: red;
+    outline-width: 10px medium;
+}
+p.inset{
+    outline-style: inset;
+    outline-color: blueviolet;
+    outline-width: 8px;
+}
+p.outset{
+    outline-style: outset;
+    outline-color: tomato;
+    outline-width: 6px;
+}
+p.none{
+    outline-style: none;
+    outline-color: palevioletred;
+}
+p.hidden{
+    outline-style: hidden;
+}
+p.mix{
+    outline-style: dotted dashed solid double;
+    outline-color: brown;
+    outline-width: medium;
+}
+
+p{
+    border-left: 10px solid red;
+    background-color: bisque;
+}
+
+.round1{
+    outline: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: blueviolet;
+}
+
+.round2{
+    border: 4px solid greenyellow;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: white;
+}
+
+.round3{
+    border: 4px solid rgb(39, 77, 201);
+    border-radius: 3px;
+    padding: 5px;
+    background-color: rgb(59, 210, 163);
+}
