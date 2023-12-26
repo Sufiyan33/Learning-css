@@ -20,3 +20,8 @@ div{
     height: 200px;
     text-align: justify;
 }
+
+p.lt{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
