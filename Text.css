@@ -25,3 +25,15 @@ p.lt{
     direction: rtl;
     unicode-bidi: bidi-override;
 }
+p.b{
+    vertical-align: baseline;
+}
+p.c{
+    vertical-align: text-top;
+}
+p.d{
+    vertical-align: text-bottom;
+}
+p.a{
+    vertical-align: sub;
+}
