@@ -1,0 +1,27 @@
+h1{
+    background-color: aqua;
+    width: 30%;
+    color: black;
+    text-align: center;
+    text-shadow: 10px;
+}
+
+a{
+    color: rgb(225, 6, 167);
+}
+/* Unvisited links*/
+a:link{
+    color: red;
+}
+
+/*visited links*/
+a:visited{
+    color: rgb(16, 69, 2);
+}
+/*mouse hover*/
+a:hover{
+    color: rgb(18, 11, 15);
+}
+a:active{
+    color: rgb(155, 103, 39);
+}
