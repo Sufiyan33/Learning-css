@@ -59,3 +59,14 @@ p.trans1{
 p.trans2{
     text-transform: capitalize;
 }
+
+h2{
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+    font-size: 300%;
+}
+h3{
+    text-shadow: 0 0 4px #FF0000;
+    color: rgb(18, 6, 6);
+    font-size: 300%;
+}
