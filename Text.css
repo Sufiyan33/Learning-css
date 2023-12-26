@@ -27,13 +27,26 @@ p.lt{
 }
 p.b{
     vertical-align: baseline;
+    text-decoration: overline;
+    text-decoration-color: red;
+    text-decoration-thickness: 10px;
 }
 p.c{
     vertical-align: text-top;
+    text-decoration: line-through;
+    text-decoration-line: line-through;
+    text-decoration-color: blue;
+    text-decoration-style: inherit;
 }
 p.d{
     vertical-align: text-bottom;
+    text-decoration: overline;
+    text-decoration-color: greenyellow;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 10px;
 }
 p.a{
     vertical-align: sub;
+    text-decoration: underline;
+    text-decoration-style: dashed;
 }
