@@ -1,0 +1,17 @@
+h1{
+    background-color: black;
+    color: aqua;
+    text-align: left;
+    padding-left: 25px;
+}
+p{
+    color: blue;
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div{
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: blue;
+}
