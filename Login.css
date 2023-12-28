@@ -1,0 +1,48 @@
+h2{
+    background-color: tomato;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 30%;
+    color: white;
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(30, 183, 183);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    /*For animated search box*/
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color: rgb(44, 69, 7);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 130%;
+}
+input[type=submit]:hover{
+    background-color: red;
+}
+
+div{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/*For animated search box*/
+input[type=text]:focus {
+    width: 100%;
+  }
