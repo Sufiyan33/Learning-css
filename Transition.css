@@ -1,0 +1,31 @@
+h1{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    width: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.trans1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(18, 214, 21);
+    transition: 3s;
+}
+
+.trans1:hover{
+    width: 400px;
+}
+
+.trans2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(214, 18, 168);
+    transition: width 3s, height 3s;
+}
+
+.trans2:hover{
+    width: 400px;
+    height: 400px;
+    background-color: lightslategray;
+}
