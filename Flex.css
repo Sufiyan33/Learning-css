@@ -1,0 +1,21 @@
+h1{
+    background-color: tomato;
+    color: white;
+    width: 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    background-color: dodgerblue;
+}
+.flex-container > div{
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 20px;
+    color: black;
+    font-size: 35px;
+    width: 40%;
+    text-align: center;
+}
